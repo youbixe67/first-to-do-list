@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.content {
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: white;
+  text-align: center;
+  margin: auto;
+  width: 500px;
+  padding: 25px;
+}
+.entitled {
+  color: rgb(30, 57, 214);
+  font-weight: 700;
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+body {
+  background-color: rgb(215, 247, 247);
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+#taskInput {
+  border-radius: 8px;
+  border: rgb(30, 57, 214) solid 3px;
+  height: 40px;
+  margin-right: 45px;
+  padding-left: 10px;
+  width: 260px;
+}
+
+#addBtn {
+  color: white;
+  cursor: pointer;
+  background-color: rgb(30, 57, 214);
+  border: none;
+  border-radius: 8px;
+  font-size: large;
+  font-weight: 500;
+  padding: 12px;
+}
+#addBtn:hover {
+  background-color: rgb(62, 83, 206);
+}
+#addBtn:active {
+  background-color: aqua;
+}
+
+li {
+  display: flex;
+  height: 70px;
+  text-align: center;
+  border-bottom: 1px dashed #ccc;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.checkBtn {
+  height: 25px;
+  width: 25px;
+  border-radius: 4px;
+  color: #34a853;
+  border: 1px solid black;
+  cursor: pointer;
+}
+.checkBtn:hover {
+    color: #0c661b; 
+}
+
+.deleteBtn {
+  background-color: red;
+  color: white;
+  border-radius: 4px;
+  padding: 4px;
+  border: none;
+  margin: 5px;
+  cursor: pointer;
+}
+.deleteBtn:hover {
+    background-color: #a31c1c; 
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #6c757d;
+}
